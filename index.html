@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#FBF7F4" />
+
+  <!-- ====== SEO ====== -->
+  <title>Yemi Nails Studio Barcelona — Arte en tus manos | Nail Studio de Lujo</title>
+  <meta name="description" content="Yemi Nails Studio · Nail studio de lujo en Barcelona. Diseños exclusivos en uñas acrílicas, soft gel, francesa moderna y nail art premium. Reserva tu cita y luce manos de revista." />
+  <meta name="keywords" content="nail studio, uñas acrílicas, soft gel, manicura premium, nail art, francesa moderna, uñas coreanas, manicura de lujo" />
+  <meta name="author" content="Yemi Nails Studio" />
+  <link rel="canonical" href="https://yeminails.studio/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Yemi Nails Studio — Arte en tus manos" />
+  <meta property="og:description" content="Nail studio de lujo. Diseños exclusivos que reflejan tu estilo." />
+  <meta property="og:image" content="./assets/images/studio-2.jpeg" />
+  <meta property="og:locale" content="es_ES" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Yemi Nails Studio — Arte en tus manos" />
+  <meta name="twitter:description" content="Nail studio de lujo. Diseños exclusivos que reflejan tu estilo." />
+  <meta name="twitter:image" content="./assets/images/studio-2.jpeg" />
+
+  <!-- Favicon (emoji SVG) -->
+  <link rel="icon" type="image/png" href="./assets/images/logo-mark.png" />
+
+  <!-- ====== Fonts ====== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- ====== Libraries (CDN) ====== -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.css" />
+
+  <!-- ====== Styles ====== -->
+  <link rel="stylesheet" href="./styles.css" />
+
+  <!-- ====== Structured data (Local SEO) ====== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NailSalon",
+    "name": "Yemi Nails Studio",
+    "image": "./assets/images/studio-2.jpeg",
+    "description": "Nail studio de lujo. Diseños exclusivos en uñas acrílicas, soft gel, francesa moderna y nail art premium.",
+    "priceRange": "€€",
+    "telephone": "+34 612 345 678",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Carrer de València 123",
+      "addressLocality": "Barcelona",
+      "addressRegion": "Cataluña",
+      "postalCode": "08011",
+      "addressCountry": "ES"
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "10:00", "closes": "20:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "10:00", "closes": "18:00" }
+    ],
+    "sameAs": ["https://instagram.com/yeminails.studio", "https://tiktok.com/@yeminails.studio"]
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- ============ LOADING SCREEN ============ -->
+  <div id="loader" class="loader" aria-hidden="true">
+    <div class="loader__inner">
+      <img src="./assets/images/logo-full.png" alt="Yemi Nails Studio · Barcelona" class="loader__logo" />
+      <div class="loader__bar"><span></span></div>
+    </div>
+  </div>
+
+  <!-- ============ CUSTOM CURSOR ============ -->
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+
+  <!-- ============ PROGRESS BAR ============ -->
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#inicio" class="nav__logo" data-cursor="hover">
+        <img src="./assets/images/logo-mark.png" alt="Yemi Nails Studio" class="nav__logo-img" />
+        <span class="nav__logo-text">Yemi<em>Nails</em></span>
+      </a>
+
+      <nav class="nav__links" id="navLinks" aria-label="Navegación principal">
+        <a href="#inicio" data-cursor="hover">Inicio</a>
+        <a href="#galeria" data-cursor="hover">Galería</a>
+        <a href="#servicios" data-cursor="hover">Servicios</a>
+        <a href="#nosotros" data-cursor="hover">Nosotros</a>
+        <a href="#testimonios" data-cursor="hover">Reseñas</a>
+        <a href="#reservas" class="nav__cta" data-cursor="hover">Reservar cita</a>
+      </nav>
+
+      <button class="nav__burger" id="burger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="inicio">
+      <div class="hero__bg" aria-hidden="true">
+        <span class="blob blob--rose"></span>
+        <span class="blob blob--lav"></span>
+        <span class="blob blob--gold"></span>
+        <div class="grain"></div>
+      </div>
+
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <span class="eyebrow" data-reveal>✦ Nail Studio de Lujo · Barcelona</span>
+          <h1 class="hero__title" data-reveal>
+            <span class="line">Arte en</span>
+            <span class="line">tus <em>manos</em></span>
+          </h1>
+          <p class="hero__sub" data-reveal>
+            Diseños exclusivos que reflejan tu estilo. Manicura premium,
+            nail art de autor y una experiencia spa que se siente tan bien como se ve.
+          </p>
+          <div class="hero__actions" data-reveal>
+            <a href="#reservas" class="btn btn--primary" data-cursor="hover">
+              Reservar cita <i class="arrow">→</i>
+            </a>
+            <a href="#galeria" class="btn btn--ghost" data-cursor="hover">Ver diseños</a>
+          </div>
+
+          <div class="hero__stats" data-reveal>
+            <div><strong>+1.2k</strong><span>clientas felices</span></div>
+            <div class="div"></div>
+            <div><strong>4.9★</strong><span>valoración media</span></div>
+            <div class="div"></div>
+            <div><strong>+7</strong><span>años de arte</span></div>
+          </div>
+        </div>
+
+        <div class="hero__gallery" aria-hidden="true">
+          <figure class="float-card float-card--1" data-float="0.06">
+            <img src="./assets/images/studio-2.jpeg" alt="Uñas estilo coreano rosa con flores y detalles dorados" loading="eager" />
+            <figcaption>Korean Blossom</figcaption>
+          </figure>
+          <figure class="float-card float-card--2" data-float="-0.05">
+            <img src="./assets/images/studio-4.jpeg" alt="Uñas rosas glossy con margaritas blancas" loading="eager" />
+            <figcaption>Pink Daisy</figcaption>
+          </figure>
+          <figure class="float-card float-card--3" data-float="0.09">
+            <img src="./assets/images/studio-1.jpeg" alt="Francesa almendra larga blanca premium" loading="lazy" />
+            <figcaption>French Almond</figcaption>
+          </figure>
+          <span class="sparkle s1">✦</span>
+          <span class="sparkle s2">✦</span>
+          <span class="sparkle s3">✧</span>
+        </div>
+      </div>
+
+      <a href="#galeria" class="hero__scroll" data-cursor="hover" aria-label="Desplázate">
+        <span class="mouse"><span></span></span>
+        <small>Scroll</small>
+      </a>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Acrylic ✦ Soft Gel ✦ French Moderna ✦ Nail Art ✦ Korean Style ✦ Soft Pink ✦ Floral ✦ Luxury ✦ Pedicure Spa ✦ Diseños Personalizados ✦&nbsp;</span>
+        <span>Acrylic ✦ Soft Gel ✦ French Moderna ✦ Nail Art ✦ Korean Style ✦ Soft Pink ✦ Floral ✦ Luxury ✦ Pedicure Spa ✦ Diseños Personalizados ✦&nbsp;</span>
+      </div>
+    </div>
+
+    <!-- ============ GALLERY ============ -->
+    <section class="section gallery" id="galeria">
+      <div class="container">
+        <header class="section__head">
+          <span class="eyebrow" data-reveal>Galería</span>
+          <h2 class="section__title" data-reveal>Nuestro <em>portafolio</em></h2>
+          <p class="section__lead" data-reveal>
+            Cada set es una pieza única. Explora por estilo y encuentra tu próxima obsesión.
+          </p>
+        </header>
+
+        <div class="filters" id="filters" data-reveal>
+          <!-- Botones de filtro inyectados por JS -->
+        </div>
+
+        <div class="masonry" id="galleryGrid" aria-live="polite">
+          <!-- Items inyectados por JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section services" id="servicios">
+      <div class="container">
+        <header class="section__head">
+          <span class="eyebrow" data-reveal>Servicios</span>
+          <h2 class="section__title" data-reveal>Una experiencia <em>premium</em></h2>
+          <p class="section__lead" data-reveal>
+            Productos de alta gama, técnicas certificadas y un ritual de cuidado pensado para ti.
+          </p>
+        </header>
+
+        <div class="services__grid" id="servicesGrid">
+          <!-- Cards inyectadas por JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ BOOKING ============ -->
+    <section class="section booking" id="reservas">
+      <div class="booking__bg" aria-hidden="true"><span class="blob blob--rose"></span><span class="blob blob--gold"></span></div>
+      <div class="container">
+        <header class="section__head">
+          <span class="eyebrow" data-reveal>Reservas</span>
+          <h2 class="section__title" data-reveal>Agenda tu <em>cita</em></h2>
+          <p class="section__lead" data-reveal>
+            Elige día, hora y servicio. Confirmamos al instante por WhatsApp. Sin complicaciones.
+          </p>
+        </header>
+
+        <div class="booking__card glass" data-reveal>
+          <!-- Calendario -->
+          <div class="booking__calendar">
+            <div class="cal__head">
+              <button class="cal__nav" id="calPrev" aria-label="Mes anterior" data-cursor="hover">‹</button>
+              <span class="cal__month" id="calMonth">—</span>
+              <button class="cal__nav" id="calNext" aria-label="Mes siguiente" data-cursor="hover">›</button>
+            </div>
+            <div class="cal__weekdays">
+              <span>L</span><span>M</span><span>X</span><span>J</span><span>V</span><span>S</span><span>D</span>
+            </div>
+            <div class="cal__grid" id="calGrid"><!-- días por JS --></div>
+
+            <p class="booking__label">Horario disponible</p>
+            <div class="slots" id="slots"><!-- slots por JS --></div>
+          </div>
+
+          <!-- Formulario -->
+          <form class="booking__form" id="bookingForm" novalidate>
+            <div class="field">
+              <label for="bk-name">Nombre completo</label>
+              <input type="text" id="bk-name" name="name" placeholder="Tu nombre" required />
+            </div>
+            <div class="field">
+              <label for="bk-service">Servicio</label>
+              <select id="bk-service" name="service" required>
+                <option value="" disabled selected>Selecciona un servicio</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="bk-phone">Teléfono</label>
+              <input type="tel" id="bk-phone" name="phone" placeholder="Para confirmarte" />
+            </div>
+            <div class="field">
+              <label for="bk-notes">Notas (opcional)</label>
+              <textarea id="bk-notes" name="notes" rows="2" placeholder="Inspiración, color, largo…"></textarea>
+            </div>
+
+            <div class="booking__summary" id="bkSummary">
+              <span>📅 <b id="sumDate">Selecciona una fecha</b></span>
+              <span>⏰ <b id="sumTime">— hora</b></span>
+            </div>
+
+            <button type="submit" class="btn btn--primary btn--full" data-cursor="hover">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.633 5.43l-.999 3.648 3.866-1.385z"/></svg>
+              Reservar por WhatsApp
+            </button>
+            <p class="booking__fine">Te responderemos en minutos para confirmar tu cita ✦</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section class="section testimonials" id="testimonios">
+      <div class="container">
+        <header class="section__head">
+          <span class="eyebrow" data-reveal>Reseñas</span>
+          <h2 class="section__title" data-reveal>Lo que dicen <em>ellas</em></h2>
+        </header>
+        <div class="tcarousel" data-reveal>
+          <div class="tcarousel__track" id="testimonialTrack"><!-- por JS --></div>
+        </div>
+        <div class="tcarousel__dots" id="testimonialDots"></div>
+      </div>
+    </section>
+
+    <!-- ============ SOCIAL / INSTAGRAM ============ -->
+    <section class="section social" id="social">
+      <div class="container">
+        <header class="section__head">
+          <span class="eyebrow" data-reveal>Síguenos</span>
+          <h2 class="section__title" data-reveal>@yeminails.studio</h2>
+          <p class="section__lead" data-reveal>Inspiración diaria, reels y los diseños más virales. Únete a la comunidad.</p>
+          <div class="social__actions" data-reveal>
+            <a href="#" id="igFollow" class="btn btn--primary btn--sm" data-cursor="hover">Seguir en Instagram</a>
+            <a href="#" id="ttFollow" class="btn btn--ghost btn--sm" data-cursor="hover">Ver TikTok</a>
+          </div>
+        </header>
+        <div class="social__grid" id="socialGrid"><!-- por JS --></div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section about" id="nosotros">
+      <div class="container about__inner">
+        <div class="about__media" data-reveal>
+          <img class="about__img about__img--main" src="./assets/images/studio-1.jpeg" alt="Trabajo de uñas francesa premium en Yemi Nails Studio" loading="lazy" />
+          <img class="about__img about__img--accent" src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?w=600&q=70&auto=format&fit=crop" alt="Ambiente spa premium" loading="lazy" />
+          <span class="about__badge glass">✦ Desde 2019</span>
+        </div>
+        <div class="about__content">
+          <span class="eyebrow" data-reveal>Sobre nosotros</span>
+          <h2 class="section__title" data-reveal>Donde el detalle <em>se vuelve arte</em></h2>
+          <p data-reveal>
+            Yemi Nails Studio nació en el corazón de Barcelona, de una obsesión: convertir cada manicura en una pieza de joyería.
+            Combinamos la precisión del <strong>nail art coreano</strong>, la elegancia de la estética
+            <em>clean girl</em> y productos de lujo libres de crueldad para crear manos que enamoran.
+          </p>
+          <div class="about__pillars" data-reveal>
+            <div class="pillar glass">
+              <h3>Misión</h3>
+              <p>Realzar tu belleza con diseños impecables y una experiencia que te haga sentir única.</p>
+            </div>
+            <div class="pillar glass">
+              <h3>Visión</h3>
+              <p>Ser el nail studio de referencia en lujo, arte y cuidado consciente.</p>
+            </div>
+          </div>
+          <ul class="about__list" data-reveal>
+            <li>✓ Esterilización hospitalaria certificada</li>
+            <li>✓ Productos hipoalergénicos premium</li>
+            <li>✓ Ambiente spa relajante y privado</li>
+          </ul>
+          <a href="#reservas" class="btn btn--primary" data-cursor="hover">Vive la experiencia</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer" id="contacto">
+    <div class="footer__glow" aria-hidden="true"></div>
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#inicio" class="footer__logo-link" aria-label="Yemi Nails Studio">
+          <img src="./assets/images/logo-full.png" alt="Yemi Nails Studio · Barcelona" class="footer__logo-img" />
+        </a>
+        <p>Arte en tus manos. Diseños exclusivos que reflejan tu estilo, en un ambiente de lujo pensado para ti.</p>
+        <div class="footer__social">
+          <a href="#" id="igFooter" aria-label="Instagram" data-cursor="hover">Instagram</a>
+          <a href="#" id="ttFooter" aria-label="TikTok" data-cursor="hover">TikTok</a>
+          <a href="#" id="waFooter" aria-label="WhatsApp" data-cursor="hover">WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="footer__col">
+        <h4>Horarios</h4>
+        <ul>
+          <li><span>Lun – Vie</span> <b>10:00 – 20:00</b></li>
+          <li><span>Sábado</span> <b>10:00 – 18:00</b></li>
+          <li><span>Domingo</span> <b>Cerrado</b></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4>Contacto</h4>
+        <ul>
+          <li id="footAddress">Carrer de València 123 · Eixample, Barcelona</li>
+          <li id="footPhone">+34 612 345 678</li>
+          <li id="footEmail">hola@yeminails.studio</li>
+        </ul>
+      </div>
+
+      <div class="footer__col footer__news">
+        <h4>Newsletter</h4>
+        <p>Promos exclusivas y nuevos diseños primero.</p>
+        <form id="newsForm" class="news">
+          <input type="email" placeholder="Tu correo" aria-label="Correo" required />
+          <button type="submit" data-cursor="hover">→</button>
+        </form>
+        <div class="footer__map glass">
+          <iframe
+            title="Ubicación Yemi Nails Studio"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=2.1480%2C41.3830%2C2.1820%2C41.4010&layer=mapnik&marker=41.3920%2C2.1650"
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <span>© <span id="year"></span> Yemi Nails Studio · Barcelona · Todos los derechos reservados.</span>
+      <span>Hecho con ♡ y mucho glitter</span>
+    </div>
+  </footer>
+
+  <!-- ============ WHATSAPP FLOAT ============ -->
+  <a href="#" id="waFloat" class="wa-float" aria-label="Escríbenos por WhatsApp" data-cursor="hover">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.633 5.43l-.999 3.648 3.866-1.385zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg>
+    <span class="wa-float__pulse"></span>
+  </a>
+
+  <!-- ============ MOBILE BOTTOM BAR (solo móvil) ============ -->
+  <nav class="mobile-bar" aria-label="Acciones rápidas">
+    <a href="#reservas" class="mobile-bar__cta" data-cursor="hover">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="4" width="18" height="18" rx="3"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+      Reservar cita
+    </a>
+    <a href="#" id="mbWa" class="mobile-bar__btn mobile-bar__btn--wa" aria-label="Escríbenos por WhatsApp">
+      <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.633 5.43l-.999 3.648 3.866-1.385z"/></svg>
+    </a>
+    <a href="#" id="mbIg" class="mobile-bar__btn mobile-bar__btn--ig" aria-label="Síguenos en Instagram">
+      <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 01-1.38-.9 3.7 3.7 0 01-.9-1.38c-.16-.42-.36-1.06-.41-2.23-.06-1.27-.07-1.65-.07-4.85s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16zm0 1.62c-3.15 0-3.52.01-4.76.07-1.15.05-1.77.24-2.19.4-.55.21-.94.47-1.35.88-.41.41-.67.8-.88 1.35-.16.42-.35 1.04-.4 2.19-.06 1.24-.07 1.61-.07 4.76s.01 3.52.07 4.76c.05 1.15.24 1.77.4 2.19.21.55.47.94.88 1.35.41.41.8.67 1.35.88.42.16 1.04.35 2.19.4 1.24.06 1.61.07 4.76.07s3.52-.01 4.76-.07c1.15-.05 1.77-.24 2.19-.4.55-.21.94-.47 1.35-.88.41-.41.67-.8.88-1.35.16-.42.35-1.04.4-2.19.06-1.24.07-1.61.07-4.76s-.01-3.52-.07-4.76c-.05-1.15-.24-1.77-.4-2.19-.21-.55-.47-.94-.88-1.35-.41-.41-.8-.67-1.35-.88-.42-.16-1.04-.35-2.19-.4-1.24-.06-1.61-.07-4.76-.07zm0 2.76a5.3 5.3 0 110 10.6 5.3 5.3 0 010-10.6zm0 1.62a3.68 3.68 0 100 7.36 3.68 3.68 0 000-7.36zm5.5-.43a1.24 1.24 0 11-2.48 0 1.24 1.24 0 012.48 0z"/></svg>
+    </a>
+  </nav>
+
+  <!-- ============ GALLERY MODAL ============ -->
+  <div class="modal" id="modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal__overlay" data-close></div>
+    <div class="modal__card glass">
+      <button class="modal__close" data-close aria-label="Cerrar" data-cursor="hover">×</button>
+      <div class="modal__img"><img id="modalImg" src="" alt="" /></div>
+      <div class="modal__body">
+        <span class="modal__cat" id="modalCat"></span>
+        <h3 id="modalTitle"></h3>
+        <p id="modalDesc"></p>
+        <div class="modal__meta">
+          <span class="modal__price" id="modalPrice"></span>
+          <span class="modal__time" id="modalTime"></span>
+        </div>
+        <a href="#reservas" class="btn btn--primary btn--full" data-close data-cursor="hover">Quiero este diseño</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ Scripts ============ -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js" defer></script>
+  <script src="./script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+# Herramientas locales de desarrollo / preview
+.claude/
+node_modules/
+*.log
+
+# Carpeta temporal de despliegue
+/_deploy/
+
+# Originales sueltos (las fotos del sitio viven en assets/images/)
+WhatsApp Image*.jpeg
