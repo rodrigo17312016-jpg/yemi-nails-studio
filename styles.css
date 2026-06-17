@@ -603,6 +603,8 @@ body.cursor-ready .cursor-dot, body.cursor-ready .cursor-ring { opacity: 1; }
 .footer__map { border-radius: var(--r-md); overflow: hidden; height: 130px; border: 1px solid rgba(255,255,255,.12); }
 .footer__map iframe { width: 100%; height: 100%; border: 0; filter: grayscale(.3) saturate(.9); }
 .footer__bottom { display: flex; justify-content: space-between; flex-wrap: wrap; gap: .6rem; padding-top: 1.6rem; font-size: .82rem; color: #8d7e81; }
+.footer__studio { color: var(--gold-light); transition: color .3s; }
+.footer__studio:hover { color: var(--gold); }
 
 /* ============================================================
    WHATSAPP FLOAT
