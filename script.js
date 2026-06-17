@@ -7,8 +7,8 @@
    ════════════════════════════════════════════════════════════ */
 const CONFIG = {
   // WhatsApp en formato internacional SIN "+", SIN espacios.
-  // España: 34 + 9 dígitos -> "34612345678"
-  whatsapp: "34612345678",
+  // España: 34 + 9 dígitos -> "34662689844"
+  whatsapp: "34662689844",
 
   // Usuarios de redes (sin @)
   instagram: "yeminails.studio",
@@ -16,7 +16,7 @@ const CONFIG = {
 
   // Contacto
   email:   "hola@yeminails.studio",
-  phone:   "+34 612 345 678",
+  phone:   "+34 662 68 98 44",
   address: "Carrer de València 123 · Eixample, Barcelona",
 
   // Moneda mostrada en precios (en España el símbolo va después: 25€)
